@@ -90,7 +90,7 @@ def translation_ui():
 
 def sentiment_analysis_ui(sentiment_pipeline):
     st.header("Sentiment Analysis")
-    text_to_analyze = st.text_area("Enter text to analyze text", height=200, key="sentiment_input_text")
+    text_to_analyze = st.text_area("Enter text to analyze sentiment:", height=200, key="sentiment_input_text")
     if st.button("Analyze Sentiment", key="sentiment_button"):
         if text_to_analyze:
             with st.spinner("Analyzing sentiment..."):

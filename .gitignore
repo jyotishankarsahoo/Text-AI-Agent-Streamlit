@@ -12,3 +12,6 @@ venv/
 .DS_Store
 .vscode/
 .idea/
+
+# Dev Container Files
+.devcontainer/
